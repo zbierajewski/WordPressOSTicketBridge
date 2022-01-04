@@ -1,0 +1,67 @@
+#key4ce_wp-message-wrap{border:2px solid #CCCCCC;border-radius: 5px;padding: 5px;width: 75%;}
+#key4ce_message-html{height: 25px;}
+#key4ce_message-tmce{height: 25px;}
+#key4ce_thContainer input[type="text"], textarea
+{
+	background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-bottom: 16px;
+}
+#key4ce_thContainer select
+{
+	background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-bottom: 16px;
+	padding: 10px;
+    width: 100%;
+}
+#key4ce_thContainer .key4ce_contact_title
+{
+	color: #b0b0b0;
+    font-size: 12px;
+    margin-left: 10px;
+    text-align: left;	
+	font-size: 13px;
+}
+.key4ce_coltable{width:100%;display: table; border-collapse: collapse;margin-top: 20px;margin-bottom: 25px;}
+.key4ce_fullcol{width:100%; display: table-row;}
+.key4ce_leftcol{width:48%;float:left;display: table-cell;}
+.key4ce_rightcol{width:48%;float: right;display: table-cell;}
+@media only screen and (max-width : 480px) 
+{
+	.key4ce_coltable{width:100%;display: table; border-collapse: collapse;margin-top: 20px;margin-bottom: 25px;}
+	.key4ce_fullcol{width:100%;display: table-row;}
+	.key4ce_leftcol{width:100%;float:left;display: table-cell;}
+	.key4ce_rightcol{width:100%;float: right;display: table-cell;}
+	#key4ce_thContainer select
+	{
+		background: #f0f0f0 none repeat scroll 0 0;
+		border: medium none;
+		border-radius: 2px;
+		box-shadow: none;
+		margin-bottom: 16px;
+		padding: 10px;
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 320px) 
+{
+	.key4ce_coltable{width:100%;display: table; border-collapse: collapse;margin-top: 20px;margin-bottom: 25px;}
+	.key4ce_fullcol{width:100%;display: table-row;}
+	.key4ce_leftcol{width:100%;float:left;display: table-cell;}
+	.key4ce_rightcol{width:100%;float: right;display: table-cell;}
+	#key4ce_thContainer select
+	{
+		background: #f0f0f0 none repeat scroll 0 0;
+		border: medium none;
+		border-radius: 2px;
+		box-shadow: none;
+		margin-bottom: 16px;
+		padding: 10px;
+		width: 100%;
+	}
+}

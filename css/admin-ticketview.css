@@ -1,0 +1,226 @@
+.key4ce_wrap{
+    padding-right:20px;
+}
+#tabs
+	{
+		width: 96.5%;margin-left: 20px; border: 1px solid #aaa; border-bottom: 2px solid #aaa;
+	}
+	#key4ce_thread-items::before {
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-left: 2px dotted #ddd;
+    bottom: 0;
+    content: "";
+    left: 0;
+    margin-left: 74px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+#key4ce_thread-items {
+    margin-top: 5px;
+    padding-bottom: 15px;
+    padding-top: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.key4ce_avatar {
+    border-radius: 12%;
+}
+.key4ce_thread-entry {
+    margin-bottom: 15px;
+    z-index: 0;
+}
+.key4ce_pull-right {
+    float: right;
+}
+.key4ce_thread-entry > .key4ce_avatar {
+    display: inline-block;
+    height: auto;
+    margin-left: -60px;
+    width: 48px;
+}
+.key4ce_thread-entry > .key4ce_avatar-right {
+    display: inline-block;
+    height: auto;
+    width: 48px;
+}
+.key4ce_thread-entry.key4ce_message > .key4ce_avatar {
+    margin-left: initial;
+    margin-right: -60px;
+}
+.key4ce_thread-entry.key4ce_message.key4ce_avatar {
+    margin-left: 0;
+    margin-right: 60px;
+}
+.key4ce_thread-entry.key4ce_avatar.key4ce_message .key4ce_header::after {
+    border-left: 7px solid #c3d9ff;
+    margin-right: 1px;
+}
+.key4ce_thread-entry.key4ce_message .key4ce_header {
+    background: #c3d9ff none repeat scroll 0 0;
+}
+.key4ce_thread-entry.key4ce_avatar .key4ce_header::before {
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #9cadcc;
+    border-top: 8px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -8px;
+    top: 7px;
+}
+
+.key4ce_thread-entry.key4ce_avatar .key4ce_header::after {
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    margin-top: 1px;
+    position: absolute;
+    right: -8px;
+    top: 7px;
+}
+
+.key4ce_pull-left {
+    float: left;
+}
+
+.key4ce_thread-entry.key4ce_avatar .key4ce_header {
+    position: relative;
+}
+.key4ce_thread-entry.key4ce_response .key4ce_hright {
+     margin-left: 60px;
+}
+.key4ce_thread-entry .key4ce_header {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 0 0;
+    padding: 8px 0.9em;
+}
+.key4ce_thread-body-right {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px !important;
+    line-height: 1.42857;
+    margin: 0;
+    overflow-wrap: break-word;
+    overflow-x: auto;
+    padding: 0.9em;
+    border-image: none;
+    border-radius: 0 0 5px 5px;
+    border-style: none solid solid;
+    border-width: medium 1px 2px;
+	 margin-left: 60px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 0 0 5px 5px;
+}
+.key4ce_thread-entry.key4ce_avatar.key4ce_response .key4ce_header::after, .key4ce_thread-entry.key4ce_avatar.key4ce_note .key4ce_header::after {
+    border-left: medium none;
+    border-right: 7px solid #ffe0b3;
+    left: -8px;
+    margin-left: 1px;
+    right: initial;
+    top: 7px;
+}
+.key4ce_thread-entry .key4ce_thread-body {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #ddd #aaa;
+    border-image: none;
+    border-radius: 0 0 5px 5px;
+    border-style: none solid solid;
+    border-width: medium 1px 2px;
+}
+
+.key4ce_thread-entry.key4ce_avatar.key4ce_response .key4ce_header::before {
+    border-right-color: #ccb3af;
+}
+.key4ce_thread-entry.key4ce_response .key4ce_header {
+    background: #ffe0b3 none repeat scroll 0 0;
+}
+.key4ce_thread-entry.key4ce_avatar.key4ce_response .key4ce_header::before, .key4ce_thread-entry.key4ce_avatar.key4ce_note .key4ce_header::before {
+    border-left: medium none;
+    border-right: 8px solid #ccc;
+    left: -8px;
+    right: initial;
+    top: 7px;
+}
+.key4ce_thread-body {
+   background-color: #ffffff;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px !important;
+    line-height: 1.42857;
+    margin: 0;
+    overflow-wrap: break-word;
+    overflow-x: auto;
+    padding: 0.9em;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 0 0 5px 5px;
+}
+.key4ce_avatar > img.key4ce_avatar {
+    height: auto;
+    width: 100%;
+}
+img.key4ce_avatar {
+    border-radius: 12%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.key4ce_thread-body-right .key4ce_attachments {
+    background-color: #f4faff;
+    border-radius: 0 0 6px 6px;
+    border-top: 1px dotted rgba(0, 0, 0, 0.2);
+    margin: 0 -0.9em;
+    padding: 0.3em 0.9em;
+    position: relative;
+    top: 0.9em;
+}
+.key4ce_thread-body .key4ce_attachments {
+    background-color: #f4faff;
+    border-radius: 0 0 6px 6px;
+    border-top: 1px dotted rgba(0, 0, 0, 0.2);
+    margin: 0 -0.9em;
+    padding: 0.3em 0.9em;
+    position: relative;
+    top: 0.9em;
+}
+.key4ce_thread-body .key4ce_attachment-info {
+    display: inline-block;
+    margin-right: 10px;
+    width: 48%;
+}
+.key4ce_thread-body-right .key4ce_attachment-info {
+    display: inline-block;
+    margin-right: 10px;
+    width: 48%;
+}
+.key4ce_thread-body .key4ce_attachments .key4ce_filesize {
+    line-height: 1em;
+    margin-left: 0.5em;
+}
+.key4ce_thread-body-right .key4ce_attachments .key4ce_filesize {
+    line-height: 1em;
+    margin-left: 0.5em;
+}
+.key4ce_thread-body small {
+    font-size: 85%;
+}
+.key4ce_thread-body-right small {
+    font-size: 85%;
+}
+#key4ce_ticketThread
+{
+	margin-left: 20px;
+    width: 96.5%;
+    margin-top:30px;
+}

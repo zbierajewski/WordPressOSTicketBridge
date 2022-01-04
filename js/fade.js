@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){setTimeout(function(){e(".fade").fadeOut("slow")},5e3)});
